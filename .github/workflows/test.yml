@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: running a first script
         run: echo wecodme to me

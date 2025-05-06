@@ -1,0 +1,17 @@
+name: test
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+  steps:
+    - name: runs on one  line script
+      run: echo hello world
+
+    - name: runs the another script
+      run: |
+        echo running another,
+        echo running last commandg

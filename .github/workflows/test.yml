@@ -1,7 +1,8 @@
 name: second time
 on:
   push:
-    - main
+    branches:
+      - main
 
 jobs:
   build:
